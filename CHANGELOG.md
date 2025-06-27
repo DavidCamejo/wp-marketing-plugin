@@ -2,7 +2,7 @@
 
 All notable changes to the WordPress Marketing Plugin will be documented in this file.
 
-## [1.1.0] - 2023-06-27
+## [1.1.0] - 2025-06-27
 
 ### Added
 - Complete n8n integration functionality
@@ -26,7 +26,7 @@ All notable changes to the WordPress Marketing Plugin will be documented in this
 - Resolved issues with webhook validation
 - Fixed contact synchronization edge cases
 
-## [1.0.0] - 2023-05-30
+## [1.0.0] - 2023-06-26
 
 ### Added
 - Initial plugin release
