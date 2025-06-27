@@ -1,19 +1,21 @@
 === WordPress Marketing Plugin ===
 Contributors: yourname
 Donate link: https://yourwebsite.com/
-Tags: marketing, whatsapp, marketing-automation, contact-lists
+Tags: marketing, whatsapp, marketing-automation, contact-lists, n8n, webhooks
 Requires at least: 5.0
 Tested up to: 6.4
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A multi-user digital marketing plugin for WordPress to manage contact lists, templates, and campaigns via Evolution API.
+A multi-user digital marketing plugin for WordPress to manage contact lists, templates, and campaigns via Evolution API with full n8n integration.
 
 == Description ==
 
 WordPress Marketing Plugin functions as a digital marketing hub for multi-users, allowing them to manage contact lists, create message templates, and send communications through Evolution API with n8n as the orchestrator.
+
+The plugin now features complete n8n integration, allowing for advanced workflow automation, webhook handling, and seamless communication between your WordPress site and external services.
 
 Key Features:
 
@@ -23,7 +25,10 @@ Key Features:
 * Message template creation with variable support
 * Campaign scheduling and execution
 * WhatsApp QR code generation
-* Integration with Evolution API via n8n
+* Complete n8n integration with webhook processing
+* Automated campaign status updates via webhooks
+* Contact synchronization with external systems
+* Secure API endpoints for third-party integrations
 
 == Installation ==
 
@@ -52,10 +57,22 @@ No, the plugin implements strict data isolation. Each user can only access and m
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.0 =
+* Added complete n8n integration
+* Implemented webhook processing system
+* Added campaign status update webhook handling
+* Added contact synchronization capabilities
+* Added QR code generation webhook handling
+* Implemented secure webhook registration
+* Added contact management API methods
+
+= 1.0.0 =
 * Initial release
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.1.0 =
+This version adds complete n8n integration with webhook processing, contact synchronization, and improved campaign management. Upgrade recommended for all users.
+
+= 1.0.0 =
 Initial version of the plugin.
